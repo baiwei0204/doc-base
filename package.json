@@ -1,0 +1,53 @@
+{
+  "name": "doc-base",
+  "version": "1.0.0",
+  "description": "my documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baiwei0204/doc-base.git"
+  },
+  "author": "Akasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baiwei0204/doc-base/issues"
+  },
+  "homepage": "https://github.com/baiwei0204/doc-base#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "webpack": "^4.38.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "coffee-loader": "^0.9.0",
+    "css-loader": "^3.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-withimg-loader": "^0.1.16",
+    "node-sass": "^4.12.0",
+    "react-cli": "^0.3.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.1.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  }
+}
